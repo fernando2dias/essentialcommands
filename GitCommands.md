@@ -125,6 +125,11 @@ git clone -b <nome da branch> url-ou-pasta-projeto
 git pull
 ```
 
+### 8.1- Baixar ultima versão da branch fazendo rebase de outra branch
+```sh
+git pull --rebase origin <develop-branch>
+```
+
 ## 9- Listar as branchs locais
 ```sh
 git branch
